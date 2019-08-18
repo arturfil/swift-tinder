@@ -10,26 +10,32 @@
 		84480A3922FB208A00FFB415 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84480A3822FB208A00FFB415 /* CardView.swift */; };
 		845DC71122F92B380066413C /* HomeBottomControlsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DC71022F92B380066413C /* HomeBottomControlsStackView.swift */; };
 		845DC71322F930840066413C /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DC71222F930840066413C /* TopNavigationStackView.swift */; };
+		84A3A37123052B83008622F6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3A37023052B83008622F6 /* User.swift */; };
 		84E1D39722F6CC250032EE8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1D39622F6CC250032EE8C /* AppDelegate.swift */; };
-		84E1D39922F6CC250032EE8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1D39822F6CC250032EE8C /* ViewController.swift */; };
+		84E1D39922F6CC250032EE8C /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1D39822F6CC250032EE8C /* HomeController.swift */; };
 		84E1D39C22F6CC250032EE8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E1D39A22F6CC250032EE8C /* Main.storyboard */; };
 		84E1D39E22F6CC260032EE8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E1D39D22F6CC260032EE8C /* Assets.xcassets */; };
 		84E1D3A122F6CC260032EE8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E1D39F22F6CC260032EE8C /* LaunchScreen.storyboard */; };
 		84E1D3AA22F6D00C0032EE8C /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1D3A922F6D00C0032EE8C /* Extensions+UIView.swift */; };
+		84F665A12306EFC100E47FC0 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F665A02306EFC100E47FC0 /* CardViewModel.swift */; };
+		84F665A32306FF6700E47FC0 /* Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F665A22306FF6700E47FC0 /* Advertiser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84480A3822FB208A00FFB415 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		845DC71022F92B380066413C /* HomeBottomControlsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBottomControlsStackView.swift; sourceTree = "<group>"; };
 		845DC71222F930840066413C /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
+		84A3A37023052B83008622F6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		84E1D39322F6CC250032EE8C /* tinder_clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinder_clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E1D39622F6CC250032EE8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84E1D39822F6CC250032EE8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84E1D39822F6CC250032EE8C /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		84E1D39B22F6CC250032EE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84E1D39D22F6CC260032EE8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E1D3A022F6CC260032EE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E1D3A222F6CC260032EE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E1D3A922F6D00C0032EE8C /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		84F665A02306EFC100E47FC0 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		84F665A22306FF6700E47FC0 /* Advertiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertiser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		84A3A36F23052B53008622F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84A3A37023052B83008622F6 /* User.swift */,
+				84F665A22306FF6700E47FC0 /* Advertiser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		84E1D38A22F6CC250032EE8C = {
 			isa = PBXGroup;
 			children = (
@@ -72,10 +87,12 @@
 		84E1D39522F6CC250032EE8C /* tinder_clone */ = {
 			isa = PBXGroup;
 			children = (
+				84F6659F2306EF9400E47FC0 /* ViewModels */,
+				84F6659E2306EECE00E47FC0 /* Controllers */,
+				84A3A36F23052B53008622F6 /* Model */,
 				845DC70F22F92B060066413C /* Views */,
 				84E1D3A822F6CFD30032EE8C /* Extensions */,
 				84E1D39622F6CC250032EE8C /* AppDelegate.swift */,
-				84E1D39822F6CC250032EE8C /* ViewController.swift */,
 				84E1D39A22F6CC250032EE8C /* Main.storyboard */,
 				84E1D39D22F6CC260032EE8C /* Assets.xcassets */,
 				84E1D39F22F6CC260032EE8C /* LaunchScreen.storyboard */,
@@ -90,6 +107,22 @@
 				84E1D3A922F6D00C0032EE8C /* Extensions+UIView.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84F6659E2306EECE00E47FC0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84E1D39822F6CC250032EE8C /* HomeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84F6659F2306EF9400E47FC0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				84F665A02306EFC100E47FC0 /* CardViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +157,7 @@
 				TargetAttributes = {
 					84E1D39222F6CC250032EE8C = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
 					};
 				};
 			};
@@ -163,12 +197,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E1D39922F6CC250032EE8C /* ViewController.swift in Sources */,
+				84E1D39922F6CC250032EE8C /* HomeController.swift in Sources */,
 				845DC71122F92B380066413C /* HomeBottomControlsStackView.swift in Sources */,
+				84F665A32306FF6700E47FC0 /* Advertiser.swift in Sources */,
 				84E1D39722F6CC250032EE8C /* AppDelegate.swift in Sources */,
 				84E1D3AA22F6D00C0032EE8C /* Extensions+UIView.swift in Sources */,
+				84F665A12306EFC100E47FC0 /* CardViewModel.swift in Sources */,
 				84480A3922FB208A00FFB415 /* CardView.swift in Sources */,
 				845DC71322F930840066413C /* TopNavigationStackView.swift in Sources */,
+				84A3A37123052B83008622F6 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +360,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "arturfil-co.tinder-clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -341,7 +378,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "arturfil-co.tinder-clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
